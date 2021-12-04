@@ -1,12 +1,18 @@
 
 import './App.css';
+import Dictionary from "./Dictionary"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Dictionary</h1>
-      </header>
+     <div className="container">
+        
+       <div className="wrapper">
+          <h1>Dictionary</h1>
+          <Dictionary />
+       </div>
+      <footer>Coded by Rachel Hollingworth</footer>
+     </div>
     </div>
   );
 }

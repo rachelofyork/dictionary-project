@@ -1,4 +1,19 @@
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
 h1 {
   text-align: center;
   margin-top: 40px;
+}
+
+footer {
+  text-align: center;
 }
