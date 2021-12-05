@@ -4,12 +4,12 @@ export default function Meaning(props){
     console.log(props.meaning)
     return (
        <div className="Meaning">
-            <h4>{props.meaning.partOfSpeech}</h4>
+            <h4><em>{props.meaning.partOfSpeech}</em></h4>
 {props.meaning.definitions.map(function(definition, index){
     return (
         <div key={index}>
      <p>
-    {definition.definition}
+    <strong>{definition.definition}</strong>
     <br />
     {definition.example}
     </p>
