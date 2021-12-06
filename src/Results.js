@@ -6,12 +6,13 @@ export default function Result(props){
    //if there are results, display them//
     if (props.results){
     return <div className="Results">
-<h2 className="pt-3">{props.results.word}</h2>
+<section><h2>{props.results.word}</h2>
 {props.results.phonetics.map(function(phonetic, index){
     return (<div key={index}><Phonetic phonetic={phonetic} /></div>);
-    })}
+    })}</section>
+   
 {props.results.meanings.map(function(meaning, index){
-return (<div key={index}> <Meaning meaning={meaning} /> </div>);
+return (<section key={index} className="mb-3"> <Meaning meaning={meaning} /> </section> );
 })}
     </div>
     

@@ -28,10 +28,13 @@ function handleKeywordChange(event){
 }
 
     return <div className="Dictionary">
-        <form onSubmit={search}>
+        <section>
+            <form onSubmit={search}>
             <input type="search" placeholder="Search for a word..." onChange={handleKeywordChange}/>
-            <input type="submit" value="Search" />
+            <input type="submit" value="Search" className="Submit"/> <br/>
+            <hint><small>e.g. gin, cat, book</small></hint>
         </form>
+            </section>
         <Results results={definition} />
     </div>
 }

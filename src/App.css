@@ -11,7 +11,11 @@
 
 h1 {
   text-align: center;
-  margin-top: 40px;
+  padding: 30px;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  border-radius: 20px;
+  margin: 30px;
 }
 
 footer {
