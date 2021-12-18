@@ -8,7 +8,7 @@ function App() {
     <div className="App">
      <div className="container">
        
-       <div className="wrapper" style={{backgroundImage: `url(${background})` }}>
+       <div className="wrapper" style={{backgroundImage: `url(${background})`, backgroundSize: 'cover' }}>
           <h1 className="p-2">Dictionary</h1>
           <Dictionary />
        </div>
