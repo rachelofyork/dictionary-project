@@ -11,9 +11,17 @@ form {
   text-align: center;
 }
 
+.Search {
+  border-radius: 20px;
+  padding: 5px;
+}
+
 .Submit {
-  background-color: rgb(172, 187, 230);
+  background-color: #cad4d6;
   margin: 5px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-weight: bold;
 }
 
 section {
@@ -23,4 +31,22 @@ section {
   padding: 20px;
   margin: 30px;
   box-shadow: 10px 5px 20px rgba(161, 144, 144, 0.2);
+}
+
+@media (max-width: 600px) {
+  .Search {
+    font-size: 13px;
+  }
+
+  .Submit {
+    font-size: 10px;
+  }
+
+  hint {
+    display: none;
+  }
+
+  section {
+    margin: 10px;
+  }
 }

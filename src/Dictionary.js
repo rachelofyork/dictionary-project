@@ -39,7 +39,7 @@ function handleKeywordChange(event){
     return <div className="Dictionary">
         <section>
             <form onSubmit={search}>
-            <input type="search" placeholder="Search for a word..." onChange={handleKeywordChange}/>
+            <input type="search" placeholder="Search for a word..." onChange={handleKeywordChange} className="Search"/>
             <input type="submit" value="Search" className="Submit"/> <br/>
             <hint><small>e.g. gin, cat, book</small></hint>
         </form>

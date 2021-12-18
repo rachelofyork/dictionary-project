@@ -5,4 +5,18 @@
   text-decoration: none;
   margin-bottom: 10px;
   line-height: 2.5;
+  background-color: #a0b0b7;
+  color: black;
+  font-weight: bold;
+  transition: ease-in-out;
+}
+
+.Phonetic a:hover {
+  color: #a0b0b7;
+  background-color: black;
+}
+
+.Phonetic-text {
+  margin-left: 5px;
+  font-weight: bold;
 }
