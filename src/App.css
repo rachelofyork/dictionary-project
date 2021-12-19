@@ -7,6 +7,11 @@
   border: 1px solid black;
   border-radius: 20px;
   margin-top: 40px;
+  background: linear-gradient(
+    180.3deg,
+    rgb(221, 221, 221) 5.5%,
+    rgb(110, 136, 161) 90.2%
+  );
 }
 
 h1 {
@@ -28,6 +33,6 @@ footer {
   }
 
   footer {
-    font-size: 10px;
+    font-size: 12px;
   }
 }

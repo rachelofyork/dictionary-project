@@ -1,3 +1,7 @@
+.Phonetic {
+  text-align: center;
+}
+
 .Phonetic a {
   border: 1px solid #000000;
   border-radius: 20px;
@@ -8,7 +12,7 @@
   background-color: #a0b0b7;
   color: black;
   font-weight: bold;
-  transition: ease-in-out;
+  transition: ease-in-out 200ms;
 }
 
 .Phonetic a:hover {

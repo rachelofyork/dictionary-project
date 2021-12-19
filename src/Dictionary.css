@@ -22,6 +22,12 @@ form {
   border-radius: 20px;
   padding: 5px 10px;
   font-weight: bold;
+  transition: ease-in-out 200ms;
+}
+
+.Submit:hover {
+  color: #cad4d6;
+  background-color: black;
 }
 
 section {
